@@ -1,0 +1,5 @@
+steps:
+  - command: ls
+    plugins:
+      - billyschmidt/buildkite-exercise-2#v1.0.0:
+          pattern: '*.md'
